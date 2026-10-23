@@ -115,8 +115,8 @@ int main(){
     encontrarMaior(a, medias);
 
     printf("\nPressione Enter para sair...");
-    while (getchar() != '\n'); // Limpa o "Enter" pendente
-    getchar(); // Espera o usuário apertar Enter
+    while (getchar() != '\n'); 
+    getchar(); 
 
     return 0;
 }
